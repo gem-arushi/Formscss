@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Web Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="externalcss.css">
+    </head>
+    <body>
+        <form action="http://student-registration.com" target="_blank">
+            <h1>Student Registration Form</h1>
+            <label class="heading" for="fname">Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter first name"><br><br>
+            <label class="heading" for="Phone">Phone No:</label>
+            <input type="text" id="Phone" name="Number" placeholder="Enter phone no."><br><br>
+            <label class="heading" for="birth">Date Of Birth:</label>
+            <input type="date" id="birth" name="birth"><br><br>
+            <label class="heading" for="adress">Address:</label>
+            <textarea name="adress" id="adress" rows="10" cols="30"></textarea><br><br>
+            <label class="heading" for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            <label class="heading" for="city">City:</label>
+            <input list="city">
+            <datalist id="city">
+            <option value="Bathinda">
+            <option value="Chandigarh">
+            <option value="Patiala">
+            <option value="Barnala">
+            </datalist><br><br>
+            <label class="heading" for="hobby">Hobbies:</label>
+            <input type="checkbox" id="music" name="music" value="music">
+            <label for="music"> Music</label><br>
+            <input type="checkbox" id="sports" name="sports" value="sports">
+            <label for="sports"> Sports</label><br>
+            <input type="checkbox" id="reading" name="reading" value="reading">
+            <label for="reading"> Reading</label><br>
+            <input type="checkbox" id="dancing" name="dancing" value="dancing">
+            <label for="dancing"> Dancing</label><br>
+            <input type="checkbox" id="others" name="others" value="others">
+            <label for="others"> Others</label><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
